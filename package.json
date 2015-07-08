@@ -1,0 +1,25 @@
+{
+  "name": "clickSuck",
+  "description": "Forces click events on touch interactions. Affectionately named after working with IOS Safari",
+  "version": "1.0.0",
+  "maintainers": [
+    {
+      "name": "Tim Evko",
+      "email": "timevko@gmail.com",
+      "web": "https://timevko.com"
+    }
+  ],
+  "licenses": [
+    {
+      "name": "MIT",
+      "url": "https://raw.githubusercontent.com/tevko/clickSuck/master/LICENSE"
+    }
+  ],
+  "devDependencies": {
+    "del": "^1.2.0",
+    "gulp": "^3.9.0",
+    "gulp-eslint": "^0.15.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^1.2.0"
+  }
+}

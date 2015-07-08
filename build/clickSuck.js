@@ -1,4 +1,18 @@
+
+/* clickSuck.js
+*
+* Forces click events on touch interactions. Affectionately named after working with IOS Safari
+*
+* Author: Tim Evko
+* https://twitter.com/tevko
+* https://timevko.com
+* https://github.com/tevko/clickSuck
+* License: MIT
+*
+*/
+
 (function() {
+    'use strict';
     window.clickSuck = {
         settings: {
             touchEnabled: (function() { return (('ontouchstart' in window) || (navigator.MaxTouchPoints > 0) || (navigator.msMaxTouchPoints > 0)); })(),
