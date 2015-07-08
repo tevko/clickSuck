@@ -6,11 +6,11 @@ var gulp = require('gulp'),
     del = require('del');
 
 gulp.task('clean', function(cb) {
-    del(['src'], cb);
+    del(['build'], cb);
 });
 
 gulp.task('scripts', ['clean'], function() {
-    return gulp.src('build/*.js')
+    return gulp.src('src/*.js')
         .pipe(eslint({
             'rules' : {
                 'quotes': [1, 'single'],
@@ -24,11 +24,11 @@ gulp.task('scripts', ['clean'], function() {
         //.pipe(eslint.failAfterError())
         .pipe(uglify())
         .pipe(rename({suffix: '.min'}))
-        .pipe(gulp.dest('src'))
+        .pipe(gulp.dest('build'))
 });
 
 gulp.task('watch', function() {
-    gulp.watch('build/*.js', ['scripts']);
+    gulp.watch('src/*.js', ['scripts']);
 });
 
 gulp.task('default', ['watch', 'scripts']);
