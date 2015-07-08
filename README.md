@@ -1,11 +1,11 @@
 clickSuck
 ---------
 
-##Click event not firing in IOS?
+###Click event not firing in IOS?
 
 This totally fixes it. 
 
-##How to use?
+###How to use?
 
 Put this in your javascripts
 
@@ -13,6 +13,6 @@ Put this in your javascripts
 
 that's it.
 
-##Will Safari Ever fix their browser
+###Will Safari Ever fix their browser
 
 I hope so. But I'll never get all that time spent debugging back. 
