@@ -21,7 +21,7 @@ gulp.task('scripts', ['clean'], function() {
             ]
         }))
         .pipe(eslint.format())
-        //.pipe(eslint.failAfterError())
+        .pipe(eslint.failAfterError())
         .pipe(uglify())
         .pipe(rename({suffix: '.min'}))
         .pipe(gulp.dest('build'))
