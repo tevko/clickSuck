@@ -24,5 +24,5 @@ I hope so. But I'll never get all that time spent debugging back.
 ###Does it really work?
 
 See a small Qunit test page on 
-<a href="./clickSuck/blob/master/test/browser.html" target="_blank" 
+<a href="./test/browser.html" target="_blank" 
   title="opens in new tab or window">rawgit</a>.
