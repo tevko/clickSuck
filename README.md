@@ -26,3 +26,5 @@ I hope so. But I'll never get all that time spent debugging back.
 See a small Qunit test page on 
 <a href="https://rawgit.com/tevko/clickSuck/master/test/browser.html" 
   target="_blank" title="opens in new tab or window">raw github</a>.
+  
+###1KB minified/gzip
